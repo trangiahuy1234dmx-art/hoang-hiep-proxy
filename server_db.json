@@ -1,0 +1,243 @@
+{
+  "users": [
+    {
+      "id": "admin_huy",
+      "username": "huy321la",
+      "balance": 99989999,
+      "createdAt": "2026-07-22T06:30:54.911Z",
+      "isBlocked": false,
+      "role": "admin"
+    },
+    {
+      "id": "user_vlg4rcv",
+      "username": "nghia321la",
+      "balance": 0,
+      "createdAt": "2026-07-21T15:42:42.869Z",
+      "isBlocked": false,
+      "role": "user"
+    },
+    {
+      "id": "user_demo",
+      "username": "khachhang_demo",
+      "balance": 690000,
+      "createdAt": "2026-07-21T15:42:59.477Z",
+      "isBlocked": false,
+      "role": "user"
+    },
+    {
+      "id": "admin_hiep",
+      "username": "hiep321la",
+      "balance": 99989999,
+      "createdAt": "2026-07-22T06:30:54.912Z",
+      "isBlocked": false,
+      "role": "admin"
+    }
+  ],
+  "products": [
+    {
+      "id": "proxy_1d",
+      "name": "Key Proxy Full Aim 1 Ngày",
+      "category": "proxy",
+      "duration": "1 Ngày",
+      "price": 10000
+    },
+    {
+      "id": "proxy_1w",
+      "name": "Key Proxy Full Aim 1 Tuần",
+      "category": "proxy",
+      "duration": "1 Tuần",
+      "price": 50000
+    },
+    {
+      "id": "proxy_1m",
+      "name": "Key Proxy Full Aim 1 Tháng",
+      "category": "proxy",
+      "duration": "1 Tháng",
+      "price": 150000
+    },
+    {
+      "id": "proxy_perm",
+      "name": "Key Proxy Full Aim Vĩnh Viễn",
+      "category": "proxy",
+      "duration": "Vĩnh Viễn",
+      "price": 300000
+    },
+    {
+      "id": "migul_1w",
+      "name": "Key Migul 1 Tuần",
+      "category": "migul",
+      "duration": "1 Tuần",
+      "price": 100000
+    },
+    {
+      "id": "migul_1m",
+      "name": "Key Migul 1 Tháng",
+      "category": "migul",
+      "duration": "1 Tháng",
+      "price": 250000
+    }
+  ],
+  "keys": [
+    {
+      "id": "k1",
+      "productId": "proxy_1d",
+      "keyString": "AIM-1D-HOANGHIEP-8E92B10C",
+      "isSold": true,
+      "soldToUser": "khachhang_demo",
+      "soldAt": "2026-07-21T15:43:12.856Z"
+    },
+    {
+      "id": "k2",
+      "productId": "proxy_1d",
+      "keyString": "AIM-1D-HOANGHIEP-7B91F2AA",
+      "isSold": true,
+      "soldToUser": "hiep321la",
+      "soldAt": "2026-07-21T16:26:23.435Z"
+    },
+    {
+      "id": "k3",
+      "productId": "proxy_1d",
+      "keyString": "AIM-1D-HOANGHIEP-3E52C9BB",
+      "isSold": false
+    },
+    {
+      "id": "k4",
+      "productId": "proxy_1w",
+      "keyString": "AIM-1W-HOANGHIEP-93D8E221",
+      "isSold": false
+    },
+    {
+      "id": "k5",
+      "productId": "proxy_1w",
+      "keyString": "AIM-1W-HOANGHIEP-01F4C592",
+      "isSold": false
+    },
+    {
+      "id": "k6",
+      "productId": "proxy_1m",
+      "keyString": "AIM-1M-HOANGHIEP-44A5E812",
+      "isSold": false
+    },
+    {
+      "id": "k7",
+      "productId": "proxy_1m",
+      "keyString": "AIM-1M-HOANGHIEP-77B3C204",
+      "isSold": false
+    },
+    {
+      "id": "k8",
+      "productId": "proxy_perm",
+      "keyString": "AIM-LIFE-HOANGHIEP-77778888",
+      "isSold": false
+    },
+    {
+      "id": "k9",
+      "productId": "migul_1w",
+      "keyString": "MIGUL-1W-HOANGHIEP-9922AA11",
+      "isSold": false
+    },
+    {
+      "id": "k10",
+      "productId": "migul_1w",
+      "keyString": "MIGUL-1W-HOANGHIEP-8833BB22",
+      "isSold": false
+    },
+    {
+      "id": "k11",
+      "productId": "migul_1m",
+      "keyString": "MIGUL-1M-HOANGHIEP-4455CC66",
+      "isSold": false
+    },
+    {
+      "id": "k_7vzk3d0_0",
+      "productId": "proxy_1d",
+      "keyString": "huy321la",
+      "isSold": false
+    },
+    {
+      "id": "k_1smgwz1_0",
+      "productId": "proxy_1d",
+      "keyString": "huy321la1223",
+      "isSold": false
+    },
+    {
+      "id": "k_zljeygt_0",
+      "productId": "migul_1w",
+      "keyString": "huy321laaaa",
+      "isSold": false
+    }
+  ],
+  "deposits": [],
+  "transactions": [
+    {
+      "id": "tx_362507",
+      "userId": "admin_huy",
+      "username": "huy321la",
+      "productId": "lucky_spin",
+      "productName": "Quay vòng quay: Trúng Key Proxy 1 Ngày",
+      "amount": 10000,
+      "keyString": "SPIN-1D-HOANGHIEP-XYZ1",
+      "createdAt": "2026-07-22T07:25:18.522Z",
+      "type": "purchase",
+      "balanceAfter": 99989999
+    }
+  ],
+  "adminSettings": {
+    "bankName": "MBBank (MB)",
+    "accountNumber": "190283749321",
+    "accountHolder": "huy trần",
+    "description": "Nạp tiền Shop Hoang Hiep - Nội dung ghi đúng mã nạp",
+    "qrType": "custom",
+    "vietqrBankId": "MB",
+    "customQrUrl": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXcMWMLZbyQBTasl65xrW2QIMqwAJT6_qzhTFzBk_60iV9K059FPU56_g6ay2OpLNoKtV1WWXNgTptL-fNqaCO0dAohO4kz_rBwbpZpn9hNQdsmwMS_sFTrmz6HKQZsORdJleeeE2sc6S2OfLh-I6aBmbTwP?key=tE_qip6BHPL4g00JXL_X6Q"
+  },
+  "chats": [],
+  "luckyWheelSettings": {
+    "pricePerSpin": 10000,
+    "isActive": true,
+    "outOfKeysBehavior": "reroll"
+  },
+  "luckyWheelRewards": [
+    {
+      "id": "reward_day",
+      "name": "Key Proxy 1 Ngày",
+      "rewardType": "day",
+      "probability": 70,
+      "keys": [
+        "SPIN-1D-HOANGHIEP-XYZ2",
+        "SPIN-1D-HOANGHIEP-XYZ3"
+      ]
+    },
+    {
+      "id": "reward_week",
+      "name": "Key Proxy 1 Tuần",
+      "rewardType": "week",
+      "probability": 20,
+      "keys": [
+        "SPIN-1W-HOANGHIEP-ABC1",
+        "SPIN-1W-HOANGHIEP-ABC2"
+      ]
+    },
+    {
+      "id": "reward_month",
+      "name": "Key Proxy 1 Tháng",
+      "rewardType": "month",
+      "probability": 10,
+      "keys": [
+        "SPIN-1M-HOANGHIEP-MNP1"
+      ]
+    }
+  ],
+  "luckyWheelSpinLogs": [
+    {
+      "id": "spin_678390",
+      "userId": "admin_huy",
+      "username": "huy321la",
+      "rewardId": "reward_day",
+      "rewardName": "Key Proxy 1 Ngày",
+      "keyString": "SPIN-1D-HOANGHIEP-XYZ1",
+      "createdAt": "2026-07-22T07:25:18.522Z",
+      "status": "success"
+    }
+  ]
+}

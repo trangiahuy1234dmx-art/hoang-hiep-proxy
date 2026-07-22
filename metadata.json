@@ -1,0 +1,6 @@
+{
+  "name": "Shop Đồ Chơi Full Đỏ Hoàng Hiệp",
+  "description": "Website cung cấp key Proxy và Key Migul tự động với phong cách công nghệ Hồng Neon hiện đại.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
